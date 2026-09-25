@@ -1,0 +1,22 @@
+.container-imagem {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  width: 20%;            
+  overflow: hidden;       
+ }
+
+.container-imagem img {
+  width: 100%;             
+  height: auto;            
+  display: block;          
+}
+
+
+
+body {
+  background-image: url('d.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
